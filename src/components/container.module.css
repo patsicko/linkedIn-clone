@@ -1,0 +1,93 @@
+
+.header{
+    background-color: #81e4d4;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   
+    
+    
+}
+.headerContent{
+    background-color: #ffffff;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    width: 70%;
+    margin: auto;
+    /* position: fixed; */
+}
+
+.container{
+    background-color: #f3f2ef;
+    height: 600px;
+}
+
+
+
+.leftHead{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+    padding-top: 10px;
+   
+}
+.middleHead{
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid gray;
+}
+.searchBar{
+   
+    height: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #eef3f8;
+    width: 230px;
+  
+} 
+.searchBar input[type=text]{
+    border: none;
+    height: 100%;
+    width: 180px;
+    background-color: #eef3f8;
+    outline: none;
+}
+.likedIn{
+    color:#0a66c2;
+    font-size: 1.5rem;
+}
+.middleHead div span{
+    font-size: 0.7rem;
+}
+.middleHead div{
+    color:gray;
+}
+.middleHead div:hover{
+    color: black;
+}
+.middleHead div:active{
+    border-bottom: 2px solid black;
+}
+
+.rightHead{
+    padding-left: 20px;
+    display: flex;
+}
+
+
+.rightHead div span{
+    font-size: 0.6rem;
+}
+
+.main{
+    background-color: #f3f2ef;
+    height: 800px;
+    position: fixed;
+    top: 50px;
+    overflow-y: scroll;
+    width: 100%;
+    
+   
+}
