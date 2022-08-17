@@ -6,7 +6,7 @@ const Impression=()=>{
 
     return(<>
     
-<div className={s}>
+<div className={styles.impression}>
 
 </div>
 
