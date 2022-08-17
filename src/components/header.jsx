@@ -15,7 +15,6 @@ import {AiFillCaretDown} from "react-icons/ai";
 
 
 const Header=()=>{
-
     return(<>
   <div className={styles.header}>
 
@@ -37,8 +36,7 @@ const Header=()=>{
  <div className={styles.middleHead}>
       <div className={styles.home}>
           <AiFillHome/> <br />
-          
-         <span> Home</span>
+          <span> Home</span>
       </div>
      
      <div className={styles.network}>
@@ -79,13 +77,12 @@ const Header=()=>{
    </div>
 
  </div>
+ </div>
 
-</div>
+ </div>
 
+ </>);
 
-  </div>
-
-    </>);
 }
 
 

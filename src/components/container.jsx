@@ -1,20 +1,24 @@
 import React from "react";
 import Header from "./header";
-import HomePage from "../pages/HomePage";
+import HomePage from "../pages/home/homePage";
 import styles from "./container.module.css";
+import {BrowserRouter as Router, Swith, Route,Link} from "react-router-dom"
+
+
 
 
 const Container=()=>{
 
     return(<>
-    
+    <Router>
+
     <Header/>
-   
-    <div className={styles.main}>
-     <HomePage/>
-    </div>
 
 
+    {/* <Route path="/homePage" component={<HomePage/>}/> */}
+    
+    
+    </Router>
     </>);
 }
 
