@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../pages.module.css";
+import profile from "../../profile.jpg";
+
 
 const Impression=()=>{
 
@@ -8,7 +10,7 @@ const Impression=()=>{
     <>
     
         <div className={styles.impression}>
-
+          <img src={profile} alt="" />
         </div>
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../pages.module.css";
 
 
 const Post=()=>{
@@ -7,7 +8,9 @@ const Post=()=>{
 
 
     return(<>
-    
+    <div className={styles.postBox}>
+
+    </div>
     </>);
 }
 

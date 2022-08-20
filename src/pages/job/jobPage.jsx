@@ -14,6 +14,7 @@ const JobPage = () => {
   <MyJobs/>
   <Suggested/>
   <JobSeeker/>
+  <Messages/>
   </>
   )
 }

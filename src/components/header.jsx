@@ -10,6 +10,7 @@ import {IoMdNotifications} from "react-icons/io";
 import {CgProfile} from "react-icons/cg";
 import {CgMenuGridO} from "react-icons/cg";
 import {AiFillCaretDown} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 
 
@@ -35,12 +36,22 @@ const Header=()=>{
 
  <div className={styles.middleHead}>
       <div className={styles.home}>
-          <AiFillHome/> <br />
-          <span> Home</span>
+      <Link to="/">
+         <AiFillHome/> <br />
+          <span>   Home </span>
+      </Link>
+          
+
       </div>
      
      <div className={styles.network}>
-      <BsFillPeopleFill/> <br /><span> My Network</span>
+     <Link to="/network">
+
+     <BsFillPeopleFill/> <br />
+      <span> My Network</span>
+     </Link>
+     
+
      </div>
 
      <div className={styles.jobs}>
@@ -48,7 +59,7 @@ const Header=()=>{
      </div>
 
      <div className={styles.messaging}>
-     <AiFillMessage/> <br /> <span>Jobs</span>
+     <AiFillMessage/> <br /> <span>Messaging</span>
      </div>
      <div className={styles.notifications}>
         <IoMdNotifications/> <br /> <span>Notifications</span>

@@ -5,7 +5,8 @@
 import React from 'react'
 import Invitation from './invitation';
 import ManageNetwork from './manageNetwork';
-import Messages from '../components/messages';
+
+import Messages from '../../components/messages';
 
 const NetworkPage = () => {
 
@@ -18,7 +19,7 @@ const NetworkPage = () => {
 
      <ManageNetwork/>
      <Invitation/>
-     <Messages/>
+     
      
 
     </>  
